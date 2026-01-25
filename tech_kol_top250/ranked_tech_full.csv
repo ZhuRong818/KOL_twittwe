@@ -1,0 +1,690 @@
+rank,username,followers,tech_similarity_top10,engagement_top10,spam_ratio,rt_ratio,score,error
+1,JeffDean,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+2,ID_AA_Carmack,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+3,OpenAI,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+4,ilyasut,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+5,sriramk,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+6,elonmusk,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+7,paulg,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+8,sama,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+9,geoffreyhinton,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+10,goodfellow_ian,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+11,OriolVinyalsML,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+12,karpathy,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+13,demishassabis,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+14,shivon,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+15,ylecun,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+16,pabbeel,95187,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+17,AndrewYNg,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+18,sundarpichai,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+19,alexandr_wang,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+20,pmarca,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+21,ericschmidt,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+22,mustafasuleyman,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+23,ClementDelangue,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+24,jackclarkSF,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+25,RichardSocher,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+26,DrJimFan,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+27,jack,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+28,BarackObama,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+29,reidhoffman,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+30,GoogleDeepMind,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+31,patrickc,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+32,eladgil,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+33,tim_cook,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+34,vkhosla,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+35,satyanadella,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+36,fchollet,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+37,ChrSzegedy,43092,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+38,DavidSacks,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+39,lexfridman,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+40,GoogleAI,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+41,BillGates,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+42,EMostaque,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+43,drfeifei,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+44,gdb,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+45,erikbryn,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+46,AravSrinivas,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+47,MIT_CSAIL,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+48,polynoamial,98582,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+49,JeffBezos,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+50,jeremyphoward,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+51,_akhaliq,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+52,earnmyturns,18679,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+53,natfriedman,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+54,bhorowitz,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+55,balajis,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+56,Benioff,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+57,miramurati,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+58,soumithchintala,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+59,timoreilly,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+60,bgurley,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+61,woj_zaremba,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+62,Miles_Brundage,65105,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+63,NandoDF,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+64,erichorvitz,31086,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+65,garrytan,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+66,SpaceX,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+67,levie,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+68,AnthropicAI,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+69,chrmanning,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+70,Thom_Wolf,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+71,stanfordnlp,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+72,huggingface,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+73,hardmaru,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+74,hugo_larochelle,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+75,kchonyc,81355,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+76,ZoubinGhahrama1,33035,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+77,doomie,19028,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+78,OfficialLoganK,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+79,chamath,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+80,Jason,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+81,deedydas,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+82,arena,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+83,TEDchris,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+84,ShaneLegg,75008,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+85,clmt,19157,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+86,Google,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+87,tobi,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+88,katecrawford,82210,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+89,AmandaAskell,67466,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+90,karaswisher,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+91,nxthompson,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+92,mcuban,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+93,scottbelsky,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+94,_jasonwei,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+95,rodneyabrooks,33114,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+96,a16z,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+97,collision,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+98,NateSilver538,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+99,chelseabfinn,87852,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+100,johnschulman2,71497,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+101,mlevchin,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+102,SebastianThrun,80872,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+103,ashleevance,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+104,lawrennd,37909,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+105,berkeley_ai,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+106,DavidSHolz,98652,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+107,NaveenGRao,36099,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+108,StefanoErmon,36405,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+109,rasbt,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+110,AIatMeta,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+111,nikitabier,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+112,quocleix,60515,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+113,rsalakhu,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+114,ezraklein,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+115,EricTopol,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+116,emollick,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+117,hendrycks,44099,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+118,bryan_johnson,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+119,tegmark,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+120,Kasparov63,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+121,PeterDiamandis,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+122,shakir_za,45046,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+123,willknight,20994,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+124,tsimonite,16331,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+125,martin_casado,75264,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+126,lilianweng,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+127,benhamner,31773,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+128,mims,96925,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+129,CathieDWood,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+130,mer__edith,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+131,sapinker,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+132,marissamayer,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+133,amasad,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+134,danielgross,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+135,adamdangelo,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+136,ycombinator,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+137,npew,42297,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+138,alexisohanian,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+139,Suhail,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+140,markchen90,68185,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+141,zicokolter,27141,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+142,PalmerLuckey,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+143,willdepue,54584,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+144,AlecRad,60422,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+145,cdixon,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+146,ch402,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+147,PyTorch,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+148,percyliang,92692,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+149,simonw,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+150,poolio,21190,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+151,NeurIPSConf,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+152,jaschasd,27751,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+153,svlevine,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+154,haldaume3,26282,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+155,dustinvtran,57456,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+156,kaggle,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+157,arthurmensch,54656,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+158,ryan_p_adams,35048,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+159,johnplattml,23887,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+160,MelMitchell1,49567,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+161,NVIDIAAI,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+162,tdietterich,59526,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+163,dpkingma,51632,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+164,maxjaderberg,16803,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+165,koraykv,20518,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+166,PartnershipAI,29909,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+167,RaiaHadsell,9714,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+168,GaryMarcus,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+169,terahlyons,5762,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+170,dwarkesh_sp,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+171,FryRsquared,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+172,stephen_wolfram,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+173,stevenbjohnson,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+174,beffjezos,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+175,goodside,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+176,rbhar90,12344,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+177,Grady_Booch,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+178,benthompson,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+179,andrewchen,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+180,AndrewYang,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+181,CadeMetz,31385,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+182,WIRED,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+183,StevenLevy,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+184,kevinroose,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+185,kleinerperkins,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+186,naval,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+187,TechCrunch,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+188,AdamMGrant,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+189,StabilityAI,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+190,pmddomingos,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+191,dawnsongtweets,35326,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+192,leopoldasch,87027,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+193,rowancheung,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+194,techreview,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+195,3blue1brown,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+196,DaniloJRezende,35026,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+197,sacca,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+198,saranormous,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+199,tylercowen,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+200,model_mechanic,55145,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+201,Austen,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+202,AndrewMayne,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+203,jeffclune,30061,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+204,Smerity,32181,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+205,janleike,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+206,LiamFedus,32592,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+207,lulumeservey,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+208,scottgray76,9298,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+209,ericries,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+210,davidasinclair,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+211,FutureJurvetson,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+212,adampaulcoates,30479,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+213,Noahpinion,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+214,drewhouston,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+215,LauraDeming,50665,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+216,bobmcgrewai,29932,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+217,waitbutwhy,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+218,Plinz,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+219,RayDalio,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+220,rabois,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+221,bchesky,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+222,APompliano,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+223,VitalikButerin,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+224,catherineols,18747,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+225,neuralink,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+226,GuillaumeLample,42378,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+227,quantombone,14832,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+228,random_walker,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+229,ericjang11,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+230,xai,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+231,akanazawa,19857,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+232,levelsio,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+233,pathak2206,25931,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+234,realSharonZhou,25694,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+235,paperswithcode,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+236,LangChain,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+237,MSFTResearch,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+238,_rockt,41243,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+239,yaringal,42189,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+240,DynamicWebPaige,72515,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+241,chipro,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+242,jerryjliu0,68232,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+243,midjourney,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+244,RandomlyWalking,17182,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+245,_KarenHao,78413,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+246,AINowInstitute,57741,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+247,aidangomez,33649,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+248,sequoia,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+249,dpatil,79688,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+250,douglas_eck,12984,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+251,antgoldbloom,43413,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+252,deviparikh,26813,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+253,bindureddy,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+254,NASA,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+255,neiltyson,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+256,zacharylipton,64682,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+257,DeepLearningAI,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+258,RogerGrosse,11398,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+259,ZelenskyyUa,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+260,eldsjal,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+261,skdh,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+262,frossi_t,8345,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+263,NASAWebb,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+264,ProfFeynman,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+265,tabithagold,14739,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+266,TheEconomist,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+267,Liv_Boeree,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+268,ancadianadragan,13245,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+269,kaifulee,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+270,ESYudkowsky,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+271,Grimezsz,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+272,JoeBiden,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+273,MichaelDell,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+274,KirkDBorne,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+275,nytimes,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+276,POTUS46Archive,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+277,tengyuma,40129,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+278,dylan522p,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+279,ruchowdh,40412,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+280,COVID19Tracking,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+281,BrianRoemmele,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+282,triketora,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+283,nitashatiku,62261,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+284,chr1sa,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+285,johndoerr,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+286,KamalaHarris,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+287,realDonaldTrump,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+288,verge,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+289,robot_MD,11382,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+290,nalkalc,36079,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+291,BillAckman,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+292,justindross,40970,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+293,ev,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+294,shaunmmaguire,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+295,BorisMPower,47563,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+296,eriktorenberg,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+297,nickcammarata,89378,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+298,fidjissimo,77214,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+299,tszzl,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+300,gwern,75336,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+301,mntruell,52779,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+302,zebulgar,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+303,GillVerd,63894,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+304,BrendanEich,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+305,HarryStebbings,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+306,maddow,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+307,natashajaques,32051,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+308,ibab,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+309,stevesi,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+310,roelofbotha,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+311,micsolana,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+312,isafulf,35491,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+313,markpinc,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+314,kevin_scott,30308,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+315,sharifshameem,64697,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+316,michael_nielsen,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+317,kalinowski007,11622,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+318,bradlightcap,34501,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+319,schrep,98947,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+320,rivatez,76791,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+321,eshear,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+322,sandersted,9533,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+323,_sholtodouglas,36201,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+324,btaylor,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+325,rauchg,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+326,evanjconrad,15614,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+327,JTLonsdale,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+328,rapha_gl,10802,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+329,MrBeast,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+330,nottombrown,8171,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+331,X,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+332,mckaywrigley,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+333,shaneguML,46355,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+334,juliagalef,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+335,SebastienBubeck,64020,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+336,zoink,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+337,amuellerml,48376,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+338,julien_c,67606,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+339,SingularMattrix,13498,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+340,hwchase17,86012,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+341,Teknium,52192,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+342,GavinSBaker,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+343,notmisha,25440,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+344,msbernst,17945,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+345,jure,44410,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+346,williamfalcon,15297,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+347,jiayq,17876,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+348,jcjohnss,20720,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+349,realGeorgeHotz,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+350,mark_riedl,32521,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+351,rpoo,40068,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+352,iamtrask,79515,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+353,MistralAI,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+354,aelluswamy,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+355,arankomatsuzaki,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+356,swyx,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+357,matei_zaharia,46142,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+358,SergeBelongie,9661,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+359,ctnzr,23704,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+360,deanwball,21506,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+361,kyutai_labs,25701,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+362,seb_ruder,94407,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+363,seanmcarroll,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+364,sirbayes,65781,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+365,awnihannun,37359,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+366,dhh,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+367,lishali88,17460,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+368,sciam,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+369,svpino,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+370,fermatslibrary,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+371,RamaswmySridhar,30197,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+372,SchmidhuberAI,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+373,sarahookr,55299,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+374,egrefen,44347,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+375,ajassy,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+376,edchi,12806,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+377,JamesClear,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+378,TechEmails,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+379,HarvardBiz,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+380,WiMLworkshop,17639,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+381,Ahmad_Al_Dahle,24582,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+382,DhruvBatra_,20184,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+383,YejinChoinka,27905,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+384,NYTScience,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+385,KyleCranmer,17457,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+386,david_sontag,9098,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+387,jovialjoy,93862,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+388,AnimaAnandkumar,35550,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+389,alexalbert__,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+390,ekuyda,16445,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+391,HillaryClinton,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+392,fastdotai,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+393,mmitchell_ai,81133,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+394,sh_reya,50315,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+395,_beenkim,26888,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+396,venturetwins,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+397,ssi,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+398,yeewhye,25289,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+399,nickfrosst,16222,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+400,_arohan_,37291,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+401,NobelPrize,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+402,mkratsios47,25288,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+403,friedberg,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+404,NanoBanana,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+405,dileeplearning,14771,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+406,brian_armstrong,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+407,JackK,18760,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+408,joshwoodward,45178,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+409,minchoi,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+410,NatGeo,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+411,EvanKirstel,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+412,ValaAfshar,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+413,ariannahuff,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+414,azeem,48379,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+415,maithra_raghu,20345,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+416,an_open_mind,16344,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+417,amcafee,65229,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+418,BBCBreaking,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+419,ComputerHistory,43484,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+420,Francis_YAO_,20908,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+421,j2bryson,28626,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+422,alliekmiller,81581,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+423,tristanharris,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+424,TEDTalks,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+425,aplusk,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+426,mattcutts,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+427,WalterIsaacson,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+428,kaliouby,33408,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+429,jessiwrites,31390,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+430,ARKInvest,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+431,Bill_Gross,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+432,Yuchenj_UW,78951,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+433,deepseek_ai,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+434,indexingai,9792,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+435,lm_zheng,15449,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+436,thinkmariya,23941,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+437,biz,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+438,slatestarcodex,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+439,IrwanBello,6819,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+440,repligate,62687,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+441,jgebbia,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+442,benedictevans,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+443,aliisarosenthal,3583,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+444,JonHaidt,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+445,mwseibel,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+446,jasonkwon,26791,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+447,jiangelaa,8732,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+448,prafdhar,43442,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+449,jimihendrixlive,24103,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+450,nikiparmar09,15299,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+451,rahulvohra,65113,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+452,aleks_madry,37379,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+453,chudson,44824,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+454,jeffintime,3825,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+455,kevinrose,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+456,CaseyNewton,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+457,MaxCRoser,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+458,joerogan,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+459,joshbuckley,39869,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+460,lachygroom,31218,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+461,photomatt,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+462,josh_tobin_,13763,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+463,edwinarbus,25667,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+464,mojombo,46116,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+465,RonConway,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+466,jeffreyhuber,9192,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+467,ashleymayer,61661,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+468,fredwilson,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+469,kimmaicutler,57054,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+470,harryshum,15877,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+471,clairlemon,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+472,boztank,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+473,m2jr,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+474,WSJ,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+475,rrhoover,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+476,yanndubs,11873,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+477,davidmarcus,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+478,yishan,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+479,timzaman,33976,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+480,ren_hongyu,22381,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+481,Fraser,13554,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+482,msquinn,64048,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+483,typesfast,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+484,barret_zoph,24678,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+485,starsandrobots,19804,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+486,shyamalanadkat,20990,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+487,Chad_Hurley,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+488,bariweiss,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+489,EdwardSun0909,19613,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+490,billpeeb,43055,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+491,SwiftOnSecurity,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+492,Conaw,38498,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+493,jluan,11491,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+494,boazbaraktcs,28247,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+495,romainhuet,35646,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+496,jack_w_rae,23805,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+497,karinanguyen_,42937,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+498,jimkxa,45443,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+499,Atul_Gawande,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+500,joshm,84123,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+501,nealkhosla,29341,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+502,dsiroker,38310,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+503,Luke_Metz,17415,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+504,GeoffLewisOrg,53777,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+505,nearcyan,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+506,shengjia_zhao,51375,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+507,MillionInt,29953,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+508,awilkinson,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+509,JDVance,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+510,TheRealAdamG,31215,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+511,jimmy_wales,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+512,sleepinyourhat,52861,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+513,_catwu,52289,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+514,silviocinguetta,11475,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+515,prfsanjeevarora,26014,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+516,driainmurray,10123,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+517,runwayml,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+518,l2k,24417,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+519,_milankovac_,57304,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+520,clattner_llvm,88898,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+521,DARPA,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+522,tomgoldsteincs,27198,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+523,natolambert,63776,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+524,tri_dao,35631,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+525,dwf,5226,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+526,quasimondo,57334,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+527,armandjoulin,6260,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+528,nathanbenaich,65179,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+529,elder_plinius,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+530,BenMildenhall,8688,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+531,patrick_oshag,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+532,ggerganov,53098,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+533,c_valenzuelab,44940,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+534,cohere,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+535,giffmana,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+536,Waymo,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+537,RaquelUrtasun,12659,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+538,srush_nlp,75028,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+539,volokuleshov,10420,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+540,mrogati,48786,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+541,sedielem,65617,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+542,unusual_whales,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+543,wattenberg,17289,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+544,MirowskiPiotr,6011,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+545,jon_barron,32056,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+546,janexwang,37027,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+547,cyrildiagne,25226,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+548,Erdayastronaut,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+549,bcherny,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+550,willccbb,38722,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+551,DOGE,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+552,rajatmonga,12829,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+553,TimSalimans,5210,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+554,stephenroller,5608,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+555,OpenRouterAI,63166,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+556,RemiCadene,20649,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+557,HardcoreHistory,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+558,stephzhan,26934,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+559,AlexGDimakis,22352,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+560,togethercompute,52528,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+561,perplexity_ai,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+562,suchenzang,41053,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+563,bernhardsson,49636,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+564,suchisaria,14883,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+565,DavidDuvenaud,32367,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+566,smolix,21012,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+567,RobertKennedyJr,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+568,ykilcher,83473,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+569,thinkymachines,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+570,marktenenholtz,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+571,avdnoord,14517,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+572,BornsteinMatt,7559,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+573,PessimistsArc,93682,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+574,ByJohnnyLee,30845,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+575,arkitus,9804,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+576,Tim_Dettmers,43540,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+577,StanfordHAI,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+578,SuryaGanguli,19229,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+579,glouppe,8655,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+580,jasonyo,6963,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+581,nsthorat,11774,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+582,BlancheMinerva,17471,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+583,ShamKakade6,17122,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+584,lmthang,28048,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+585,TimSweeneyEpic,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+586,tfadell,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+587,EmmanuelMacron,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+588,mmbronstein,55422,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+589,nealstephenson,89881,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+590,themarginalian,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+591,Joshuabrowder,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+592,suzatweet,21143,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+593,Replit,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+594,Neuro_Skeptic,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+595,timberners_lee,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+596,trvrb,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+597,dmonett,7848,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+598,gvanrossum,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+599,GregKamradt,46252,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+600,paraga,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+601,mattturck,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+602,docmilanfar,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+603,tunguz,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+604,togelius,22519,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+605,TensorFlow,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+606,olivercameron,48366,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+607,GoogleCloudTech,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+608,black_in_ai,42806,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+609,neurobongo,11846,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+610,jm_alexia,23476,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+611,xamat,23225,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+612,LisaSu,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+613,GVteam,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+614,LakeBrenden,8557,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+615,deliprao,64713,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+616,iclr_conf,55884,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+617,icmlconf,79558,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+618,TrungTPhan,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+619,Moustapha_6C,8833,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+620,billmaher,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+621,hmason,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+622,beenwrekt,33068,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+623,kdnuggets,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+624,AnjneyMidha,34425,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+625,nlpnoah,17214,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+626,AiBreakfast,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+627,Mila_Quebec,35095,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+628,georgiagkioxari,11892,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+629,QuantaMagazine,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+630,Rainmaker1973,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+631,allen_ai,78158,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+632,gradientpub,21017,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+633,ArtificialAnlys,73166,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+634,yaroslavvb,8218,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+635,RichardDawkins,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+636,hannawallach,20625,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+637,denisyarats,10221,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+638,omarsar0,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+639,grok,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+640,ljin18,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+641,Azaliamirh,17231,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+642,JonathanRoss321,43337,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+643,OpenAIDevs,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+644,Scobleizer,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+645,peteratmsr,17419,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+646,divgarg,21809,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+647,GreylockVC,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+648,chrispiech,6366,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+649,AOC,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+650,trq212,57678,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+651,bentossell,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+652,jk_rowling,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+653,altcap,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+654,twimlai,14232,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+655,amanrsanger,47339,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+656,m_franceschetti,58630,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+657,Tesla,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+658,TheGregYang,95050,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+659,github,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+660,Nature,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+661,rakyll,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+662,anildash,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+663,VentureBeat,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+664,TaylorLorenz,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+665,evacide,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+666,mikeyk,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+667,viegasf,17183,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+668,DaphneKoller,26456,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+669,SashaMTL,22615,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+670,savvyRL,49099,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+671,ScienceNews,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+672,math_rachel,92576,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+673,ledell,10289,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+674,Forbes,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+675,lennysan,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+676,AviSchiffmann,92971,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+677,skupor,62747,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+678,shreyas,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+679,mattshumer_,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+680,johncarmack,398,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+681,timnitGebru,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+682,jimmyasoni,8345,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+683,gregbrockman,1615,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+684,jeremyhoward,374,0.000000,0.000000,0.000,0.000,-1000000000.000000,followers_below_200k
+685,sebastianraschka,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,'NoneType' object has no attribute 'get'
+686,yannickilcher,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,'NoneType' object has no attribute 'get'
+687,sentdex,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+688,kirkdborne,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
+689,ronald_vanloon,0,0.000000,0.000000,0.000,0.000,-1000000000.000000,"Found array with 0 sample(s) (shape=(0, 174)) while a minimum of 1 is required by check_pairwise_arrays."
