@@ -1,2 +1,0 @@
-rank,username,eligible,median_views,median_engagement,active_days,originality,rel_lex,sim_tfidf,views_norm,eng_norm,rel_norm,orig_norm,act_norm,sim_norm,score,error
-1,WHO,True,21149.000,240.000,5,0.8500,0.704167,0.112025,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,
