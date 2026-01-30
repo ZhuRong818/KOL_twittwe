@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 """
-fetch_kol_tweets.py
+fetch_kol_tweets.py  (TIMELINE / PROFILE FEED VERSION)
 
-Goal: Given a username list (one handle per line), fetch ORIGINAL English tweets
-from each account over a time window (past N years OR past N days), and save as JSONL.
+✅ Reliable for: original + retweet/repost + quote + reply
+✅ Extracts image/video links (also from quoted/retweeted embedded tweets)
+✅ Uses timeline endpoint: /twitter/user/last_tweets (mirrors profile feed)
 
-- Uses twitterapi.io:
-  - /twitter/tweet/advanced_search
+IMPORTANT: Your twitterapi.io response shape is:
+  { status, code, msg, data, has_next_page, next_cursor }
 
-- Free-tier note:
-  - You said you hit: "one request every 5 seconds" -> we enforce that by default.
+…and the tweets are inside:  data["tweets"]  (NOT top-level "tweets")
 
-Output format (JSONL, 1 tweet per line):
-{"kol_username": "...", "fetched_at_utc": "...", "tweet": {...raw tweet obj...}}
+Usage examples:
+  python fetch_kol_tweets.py --usernames handles.txt --out out.jsonl --days 7
+  python fetch_kol_tweets.py --usernames handles.txt --out out.jsonl --days 30 --exclude_replies
+  python fetch_kol_tweets.py --usernames handles.txt --out out.jsonl --days 10 --retweets_only
+  python fetch_kol_tweets.py --usernames handles.txt --out out.jsonl --debug
 """
 
 import os
@@ -20,22 +23,25 @@ import json
 import time
 import argparse
 import datetime as dt
-from dateutil.relativedelta import relativedelta
+from typing import Any, Dict, List, Optional
+
 import requests
+from dateutil import parser as dtparser
+
 
 BASE_URL = "https://api.twitterapi.io"
+TIMELINE_ENDPOINT = "/twitter/user/last_tweets"
 
-# Default: one request per ~5 seconds (safe for free tier)
 DEFAULT_MIN_REQUEST_INTERVAL = 5.02
+DEFAULT_TIMEOUT = 60
+
+_last_request_time = 0.0
 
 
 # -----------------------------
 # Rate limiting + request helper
 # -----------------------------
-_last_request_time = 0.0
-
 def rate_limit(min_interval_s: float):
-    """Global simple rate limiter: ensures at least min_interval_s between requests."""
     global _last_request_time
     now = time.time()
     elapsed = now - _last_request_time
@@ -44,50 +50,62 @@ def rate_limit(min_interval_s: float):
     _last_request_time = time.time()
 
 
-def request_json(api_key: str, endpoint: str, params: dict, min_interval_s: float, timeout: int = 30) -> dict:
-    """GET request with rate limit + basic 429 backoff."""
-    rate_limit(min_interval_s)
-
+def request_json(
+    api_key: str,
+    endpoint: str,
+    params: Dict[str, Any],
+    min_interval_s: float,
+    timeout: int,
+    max_retries: int = 4,
+) -> Dict[str, Any]:
     url = f"{BASE_URL}{endpoint}"
     headers = {"X-API-Key": api_key}
 
-    r = requests.get(url, headers=headers, params=params or {}, timeout=timeout)
-
-    # If still hit 429, back off harder and retry once
-    if r.status_code == 429:
-        # Many APIs include retry hints, but we keep it simple:
-        backoff = max(10.0, min_interval_s * 2)
-        print(f"[WARN] HTTP 429 Too Many Requests. Sleeping {backoff:.1f}s then retrying once...")
-        time.sleep(backoff)
+    for attempt in range(1, max_retries + 1):
         rate_limit(min_interval_s)
-        r = requests.get(url, headers=headers, params=params or {}, timeout=timeout)
+        try:
+            r = requests.get(url, headers=headers, params=params, timeout=timeout)
 
-    if r.status_code != 200:
-        raise RuntimeError(f"HTTP {r.status_code}: {r.text[:300]}")
+            if r.status_code == 429:
+                backoff = max(10.0, min_interval_s * 2) * attempt
+                print(f"[WARN] 429 rate limited. Sleep {backoff:.1f}s then retry ({attempt}/{max_retries})")
+                time.sleep(backoff)
+                continue
 
-    return r.json()
+            if r.status_code != 200:
+                body = (r.text or "")[:400]
+                if r.status_code in (500, 502, 503, 504) and attempt < max_retries:
+                    backoff = 3.0 * attempt
+                    print(f"[WARN] HTTP {r.status_code}. Sleep {backoff:.1f}s then retry ({attempt}/{max_retries})")
+                    time.sleep(backoff)
+                    continue
+                raise RuntimeError(f"HTTP {r.status_code}: {body}")
+
+            return r.json()
+
+        except (requests.exceptions.ReadTimeout, requests.exceptions.ConnectionError) as e:
+            if attempt >= max_retries:
+                raise RuntimeError(f"Network error after retries: {e}") from e
+            backoff = 5.0 * attempt
+            print(f"[WARN] {type(e).__name__}. Sleep {backoff:.1f}s then retry ({attempt}/{max_retries})")
+            time.sleep(backoff)
+
+    raise RuntimeError("request_json failed unexpectedly")
 
 
 # -----------------------------
-# Utilities
+# Helpers
 # -----------------------------
-def utc_str(d: dt.datetime) -> str:
-    # Keep your previous format; if your API returns empty results,
-    # change to YYYY-MM-DD (see note in chat)
-    return d.strftime("%Y-%m-%d_%H:%M:%S_UTC")
-
-
-def read_usernames(path: str) -> list[str]:
-    names: list[str] = []
+def read_usernames(path: str) -> List[str]:
+    names: List[str] = []
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
             u = line.strip().lstrip("@")
             if u and not u.startswith("#"):
                 names.append(u)
 
-    # de-dup preserving order
     seen = set()
-    out: list[str] = []
+    out: List[str] = []
     for u in names:
         k = u.lower()
         if k not in seen:
@@ -96,73 +114,196 @@ def read_usernames(path: str) -> list[str]:
     return out
 
 
+def parse_created_at(tweet: Dict[str, Any]) -> Optional[dt.datetime]:
+    s = tweet.get("createdAt") or tweet.get("created_at")
+    if not s:
+        return None
+    try:
+        return dtparser.parse(s).astimezone(dt.timezone.utc)
+    except Exception:
+        return None
+
+
+def classify_tweet(tweet: Dict[str, Any]) -> str:
+    # priority: retweet > quote > reply > original
+    if isinstance(tweet.get("retweeted_tweet"), dict):
+        return "retweet"
+    if isinstance(tweet.get("quoted_tweet"), dict):
+        return "quote"
+    if tweet.get("isReply") is True:
+        return "reply"
+    return "original"
+
+
+def extract_media_from_one_tweet(tweet: Dict[str, Any]) -> List[Dict[str, str]]:
+    """
+    Extract media links from ONE tweet object:
+    - photo -> media_url_https
+    - video/animated_gif -> video_info.variants (mp4 + m3u8) + thumbnail
+    """
+    out: List[Dict[str, str]] = []
+    media = (tweet.get("extendedEntities") or {}).get("media") or []
+
+    for m in media:
+        mtype = (m.get("type") or "").lower()
+
+        if mtype == "photo":
+            url = m.get("media_url_https") or m.get("media_url")
+            if url:
+                out.append({"kind": "image", "url": url})
+            continue
+
+        if mtype in ("video", "animated_gif"):
+            vinfo = m.get("video_info") or {}
+            variants = vinfo.get("variants") or []
+
+            mp4s = [v.get("url") for v in variants if v.get("content_type") == "video/mp4" and v.get("url")]
+            m3u8 = [v.get("url") for v in variants if "mpegURL" in (v.get("content_type") or "") and v.get("url")]
+
+            for u in mp4s:
+                out.append({"kind": "video" if mtype == "video" else "gif", "url": u})
+            for u in m3u8:
+                out.append({"kind": "hls", "url": u})
+
+            thumb = m.get("media_url_https") or m.get("media_url")
+            if thumb:
+                out.append({"kind": "thumbnail", "url": thumb})
+
+    return out
+
+
+def extract_all_media(tweet: Dict[str, Any]) -> List[Dict[str, str]]:
+    """
+    Extract media from:
+      - main tweet
+      - quoted_tweet (if any)
+      - retweeted_tweet (if any)
+    """
+    out: List[Dict[str, str]] = []
+    out.extend(extract_media_from_one_tweet(tweet))
+
+    qt = tweet.get("quoted_tweet")
+    if isinstance(qt, dict):
+        out.extend(extract_media_from_one_tweet(qt))
+
+    rt = tweet.get("retweeted_tweet")
+    if isinstance(rt, dict):
+        out.extend(extract_media_from_one_tweet(rt))
+
+    # dedup
+    seen = set()
+    deduped: List[Dict[str, str]] = []
+    for item in out:
+        key = (item.get("kind"), item.get("url"))
+        if item.get("url") and key not in seen:
+            seen.add(key)
+            deduped.append(item)
+
+    return deduped
+
+
 # -----------------------------
-# twitterapi.io wrapper
+# Timeline fetcher
 # -----------------------------
-def advanced_search(api_key: str, query: str, cursor: str, query_type: str, min_interval_s: float) -> dict:
+def timeline_fetch_page(
+    api_key: str,
+    username: str,
+    cursor: str,
+    min_interval_s: float,
+    timeout: int,
+) -> Dict[str, Any]:
+    # Use the param name that most commonly works for twitterapi.io
+    params = {
+        "userName": username,
+    }
+    if cursor:
+        params["cursor"] = cursor
+
     return request_json(
         api_key=api_key,
-        endpoint="/twitter/tweet/advanced_search",
-        params={"query": query, "queryType": query_type, "cursor": cursor},
+        endpoint=TIMELINE_ENDPOINT,
+        params=params,
         min_interval_s=min_interval_s,
+        timeout=timeout,
     )
 
 
-# -----------------------------
-# Core fetcher
-# -----------------------------
-def fetch_user_tweets_advanced_search(
+def extract_tweets_from_response(resp: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """
+    Your actual response keys: status, code, msg, data, has_next_page, next_cursor
+    Tweets are in resp["data"]["tweets"] (sometimes data could be list/items)
+    """
+    data_block = resp.get("data") or {}
+
+    if isinstance(data_block, list):
+        return data_block
+
+    if isinstance(data_block, dict):
+        for k in ("tweets", "items", "list"):
+            v = data_block.get(k)
+            if isinstance(v, list):
+                return v
+
+    return []
+
+
+def fetch_user_timeline(
     api_key: str,
     username: str,
-    since_utc: str,
-    until_utc: str,
-    english_only: bool,
-    originals_only: bool,
-    query_type: str,
     min_interval_s: float,
-    max_pages: int = 10_0,
-) -> list[dict]:
-    """
-    Fetch tweets for a user via advanced_search.
-    - english_only: adds "lang:en"
-    - originals_only: adds "-filter:retweets -filter:replies"
-    """
-    lang_clause = " lang:en" if english_only else ""
-    filter_clause = " -filter:retweets -filter:replies" if originals_only else ""
-
-    query = f"from:{username}{lang_clause}{filter_clause} since:{since_utc} until:{until_utc}"
-
+    timeout: int,
+    max_pages: int,
+    max_tweets: int,
+    since_utc: Optional[dt.datetime],
+    exclude_replies: bool,
+    retweets_only: bool,
+    debug: bool,
+) -> List[Dict[str, Any]]:
     cursor = ""
-    all_tweets: list[dict] = []
+    all_tweets: List[Dict[str, Any]] = []
     seen_ids = set()
-    empty_pages = 0
 
-    for _page in range(max_pages):
-        data = advanced_search(api_key, query, cursor=cursor, query_type=query_type, min_interval_s=min_interval_s)
-        tweets = data.get("tweets", []) or []
+    for page_i in range(max_pages):
+        resp = timeline_fetch_page(api_key, username, cursor, min_interval_s, timeout)
 
-        new_count = 0
-        for t in tweets:
-            tid = str(t.get("id", ""))
-            if tid and tid not in seen_ids:
-                seen_ids.add(tid)
-                all_tweets.append(t)
-                new_count += 1
+        if debug:
+            print("[DEBUG raw keys]", resp.keys())
 
-        if new_count == 0:
-            empty_pages += 1
-        else:
-            empty_pages = 0
+        tweets = extract_tweets_from_response(resp)
 
-        # stop conditions
-        has_next = bool(data.get("has_next_page"))
-        next_cursor = data.get("next_cursor", "") or ""
+        if debug:
+            print(f"[DEBUG] @{username} page {page_i+1}: got {len(tweets)} tweets (cursor='{cursor[:12]}...')")
 
-        if not has_next or not next_cursor:
+        if not tweets:
             break
 
-        # defensive stop if API keeps returning empty pages
-        if empty_pages >= 2:
+        for t in tweets:
+            tid = str(t.get("id", ""))
+            if not tid or tid in seen_ids:
+                continue
+            seen_ids.add(tid)
+
+            created = parse_created_at(t)
+            if since_utc and created and created < since_utc:
+                # timeline is newest -> oldest, safe to stop
+                return all_tweets
+
+            ttype = classify_tweet(t)
+            if exclude_replies and ttype == "reply":
+                continue
+            if retweets_only and ttype != "retweet":
+                continue
+
+            all_tweets.append(t)
+
+            if len(all_tweets) >= max_tweets:
+                return all_tweets
+
+        # Pagination: your response provides these top-level keys
+        has_next = bool(resp.get("has_next_page"))
+        next_cursor = resp.get("next_cursor") or ""
+
+        if not has_next or not next_cursor or next_cursor == cursor:
             break
 
         cursor = next_cursor
@@ -170,25 +311,26 @@ def fetch_user_tweets_advanced_search(
     return all_tweets
 
 
+# -----------------------------
+# Main
+# -----------------------------
 def main():
     ap = argparse.ArgumentParser()
 
     ap.add_argument("--api_key", default=os.getenv("TWITTERAPI_IO_KEY"))
     ap.add_argument("--usernames", required=True, help="Path to username list file (one per line).")
-    ap.add_argument("--out", default="kol_tweets.jsonl", help="Output JSONL path")
+    ap.add_argument("--out", default="timeline.jsonl", help="Output JSONL path")
 
-    # Time window
-    ap.add_argument("--years", type=int, default=2, help="Fetch tweets from past N years (ignored if --days>0)")
-    ap.add_argument("--days", type=int, default=0, help="If >0, fetch tweets from last N days instead of years")
+    ap.add_argument("--days", type=int, default=0, help="If >0, keep tweets from last N days only (best-effort)")
+    ap.add_argument("--max_pages", type=int, default=30, help="Max pages per user")
+    ap.add_argument("--max_tweets_per_user", type=int, default=300, help="Max tweets kept per user (after filtering)")
 
-    # Content options
-    ap.add_argument("--english_only", action="store_true", help="If set, only fetch English tweets (lang:en)")
-    ap.add_argument("--originals_only", action="store_true", help="If set, exclude retweets and replies")
-    ap.add_argument("--query_type", default="Latest", choices=["Latest", "Top"])
+    ap.add_argument("--exclude_replies", action="store_true", help="Exclude replies (keep original/quote/retweet)")
+    ap.add_argument("--retweets_only", action="store_true", help="Only keep retweets/reposts")
 
-    # Rate limit controls
-    ap.add_argument("--min_interval", type=float, default=DEFAULT_MIN_REQUEST_INTERVAL,
-                    help="Min seconds between API requests (free-tier often needs ~5s)")
+    ap.add_argument("--timeout", type=int, default=DEFAULT_TIMEOUT, help="HTTP timeout per request")
+    ap.add_argument("--min_interval", type=float, default=DEFAULT_MIN_REQUEST_INTERVAL, help="Min seconds between requests")
+    ap.add_argument("--debug", action="store_true", help="Print debug logs")
 
     args = ap.parse_args()
 
@@ -199,37 +341,40 @@ def main():
     if not usernames:
         raise SystemExit("No usernames found in file.")
 
-    now = dt.datetime.utcnow().replace(microsecond=0)
+    now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
+    since_utc: Optional[dt.datetime] = None
     if args.days and args.days > 0:
-        since = now - dt.timedelta(days=args.days)
-    else:
-        since = now - relativedelta(years=args.years)
+        since_utc = now - dt.timedelta(days=args.days)
 
-    since_s = utc_str(since)
-    until_s = utc_str(now)
-
-    fetched_at = utc_str(now)
+    fetched_at = now.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     total_written = 0
     with open(args.out, "w", encoding="utf-8") as f_out:
         for i, u in enumerate(usernames, start=1):
             try:
-                tweets = fetch_user_tweets_advanced_search(
+                tweets = fetch_user_timeline(
                     api_key=args.api_key,
                     username=u,
-                    since_utc=since_s,
-                    until_utc=until_s,
-                    english_only=args.english_only,
-                    originals_only=args.originals_only,
-                    query_type=args.query_type,
                     min_interval_s=args.min_interval,
+                    timeout=args.timeout,
+                    max_pages=args.max_pages,
+                    max_tweets=args.max_tweets_per_user,
+                    since_utc=since_utc,
+                    exclude_replies=args.exclude_replies,
+                    retweets_only=args.retweets_only,
+                    debug=args.debug,
                 )
 
                 for t in tweets:
-                    f_out.write(json.dumps(
-                        {"kol_username": u, "fetched_at_utc": fetched_at, "tweet": t},
-                        ensure_ascii=False
-                    ) + "\n")
+                    line = {
+                        "kol_username": u,
+                        "fetched_at_utc": fetched_at,
+                        "tweet_type": classify_tweet(t),
+                        "created_at": t.get("createdAt"),
+                        "media": extract_all_media(t),
+                        "tweet": t,
+                    }
+                    f_out.write(json.dumps(line, ensure_ascii=False) + "\n")
 
                 total_written += len(tweets)
                 print(f"[{i}/{len(usernames)}] @{u}: wrote {len(tweets)} tweets")

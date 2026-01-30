@@ -10,21 +10,17 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-# =========================
-# 配置区（你只需要改这里）
-# =========================
 API_KEY = "new1_c64438393d9444c18cb94828b9511f27"
 BASE = "https://api.twitterapi.io"
 
 INPUT_HANDLES_FILE = "handles.txt"
 
-# 你要求：每个账号只拉 10 条推文
-TWEETS_PER_USER = 10
+TWEETS_PER_USER = 20
 
-# 你要求：粉丝数 >= 20万
+#：粉丝数 >= 20万
 MIN_FOLLOWERS = 200_000
 
-# 你要求：权重 0.4 + 0.6
+# 权重 0.4 + 0.6
 W_SIM = 0.4
 W_ENG = 0.6
 
@@ -39,9 +35,24 @@ TIMEOUT_SEC = 30
 
 
 # =========================
-# 金融主题词表（通用）
+# 金融主题词表
 # =========================
 FIN_KEYPHRASES = [
+
+    # 投资方法
+"long term investing", "active investing",
+"passive investing", "asset rotation",
+"tactical allocation", "strategic allocation",
+
+# 机构
+"institutional investors", "pension funds",
+"sovereign wealth fund", "family office",
+"hedge fund", "mutual fund flows",
+
+# 组合
+"portfolio construction", "risk parity",
+"diversification", "expected returns",
+"drawdown control", "vol targeting"
     # 股票/基本面
     "stocks", "equities", "earnings", "revenue", "profit", "guidance", "valuation",
     "price to earnings", "p/e", "free cash flow", "fcf", "cash flow", "balance sheet",
@@ -64,7 +75,29 @@ FIN_KEYPHRASES = [
     "options", "calls", "puts", "implied volatility", "gamma", "delta", "theta",
 
     # 加密
-    "crypto", "bitcoin", "btc", "ethereum", "eth", "on-chain", "stablecoin"
+    "crypto", "bitcoin", "btc", "ethereum", "eth", "on-chain", "stablecoin",
+    # 公司 & 财报
+"quarterly results", "q1", "q2", "q3", "q4",
+"top line", "bottom line", "net income", "operating income",
+"ebit", "ebitda", "gross profit", "gross margin",
+"operating margin", "net margin",
+"guidance raise", "guidance cut",
+"forward earnings", "ttm earnings",
+
+# 估值
+"multiple expansion", "multiple contraction",
+"price to sales", "p/s",
+"enterprise value", "ev/ebitda",
+"intrinsic value", "discounted cash flow", "dcf",
+"fair value", "overvalued", "undervalued",
+
+# 资本结构
+"debt", "leverage", "net debt",
+"interest coverage", "debt maturity",
+"capital expenditure", "capex",
+"return on equity", "roe",
+"return on assets", "roa",
+"return on invested capital", "roic"
 ]
 
 
@@ -93,7 +126,7 @@ class UserScore:
     eligible: bool
 
     sim_raw: float          # 0~1（cosine max then avg）
-    eng_raw: float          # log 压缩后的 raw engagement score（未归一化）
+    eng_raw: float          # log 压缩后的 raw engagement score
 
     sim_norm: float         # min-max 后 0~1
     eng_norm: float         # min-max 后 0~1
