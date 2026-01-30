@@ -14,7 +14,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # =========================
 # 配置区（只需改这里）
 # =========================
-API_KEY = os.getenv("TWITTERAPI_IO_KEY", "").strip() or "new1_c64438393d9444c18cb94828b9511f27"
+API_KEY = os.getenv("TWITTERAPI_IO_KEY", "").strip()
 BASE = "https://api.twitterapi.io"
 
 INPUT_HANDLES_FILE = "handles.txt"

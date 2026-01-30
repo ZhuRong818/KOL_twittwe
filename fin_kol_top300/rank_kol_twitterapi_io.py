@@ -1,6 +1,7 @@
 import csv
 import json
 import math
+import os
 import time
 from dataclasses import dataclass
 from typing import List, Dict, Any, Optional, Tuple
@@ -10,7 +11,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-API_KEY = "new1_c64438393d9444c18cb94828b9511f27"
+API_KEY = os.getenv("TWITTERAPI_IO_KEY", "").strip()
 BASE = "https://api.twitterapi.io"
 
 INPUT_HANDLES_FILE = "handles.txt"
@@ -38,21 +39,25 @@ TIMEOUT_SEC = 30
 # 金融主题词表
 # =========================
 FIN_KEYPHRASES = [
-
     # 投资方法
-"long term investing", "active investing",
-"passive investing", "asset rotation",
-"tactical allocation", "strategic allocation",
+    "long term investing", "active investing",
+    "passive investing", "asset rotation",
+    "tactical allocation", "strategic allocation",
 
-# 机构
-"institutional investors", "pension funds",
-"sovereign wealth fund", "family office",
-"hedge fund", "mutual fund flows",
+    # 机构
+    "institutional investors", "pension funds",
+    "sovereign wealth fund", "family office",
+    "hedge fund", "mutual fund flows",
 
-# 组合
-"portfolio construction", "risk parity",
-"diversification", "expected returns",
-"drawdown control", "vol targeting"
+    # 组合
+    "portfolio construction", "risk parity",
+    "diversification", "expected returns",
+    "drawdown control", "vol targeting",
+
+    # 常见美股 cashtag
+    "$AAPL", "$MSFT", "$NVDA", "$AMZN", "$GOOGL", "$GOOG",
+    "$META", "$TSLA", "$AMD", "$INTC", "$NFLX", "$ORCL", "$IBM",
+
     # 股票/基本面
     "stocks", "equities", "earnings", "revenue", "profit", "guidance", "valuation",
     "price to earnings", "p/e", "free cash flow", "fcf", "cash flow", "balance sheet",
@@ -77,27 +82,27 @@ FIN_KEYPHRASES = [
     # 加密
     "crypto", "bitcoin", "btc", "ethereum", "eth", "on-chain", "stablecoin",
     # 公司 & 财报
-"quarterly results", "q1", "q2", "q3", "q4",
-"top line", "bottom line", "net income", "operating income",
-"ebit", "ebitda", "gross profit", "gross margin",
-"operating margin", "net margin",
-"guidance raise", "guidance cut",
-"forward earnings", "ttm earnings",
+    "quarterly results", "q1", "q2", "q3", "q4",
+    "top line", "bottom line", "net income", "operating income",
+    "ebit", "ebitda", "gross profit", "gross margin",
+    "operating margin", "net margin",
+    "guidance raise", "guidance cut",
+    "forward earnings", "ttm earnings",
 
-# 估值
-"multiple expansion", "multiple contraction",
-"price to sales", "p/s",
-"enterprise value", "ev/ebitda",
-"intrinsic value", "discounted cash flow", "dcf",
-"fair value", "overvalued", "undervalued",
+    # 估值
+    "multiple expansion", "multiple contraction",
+    "price to sales", "p/s",
+    "enterprise value", "ev/ebitda",
+    "intrinsic value", "discounted cash flow", "dcf",
+    "fair value", "overvalued", "undervalued",
 
-# 资本结构
-"debt", "leverage", "net debt",
-"interest coverage", "debt maturity",
-"capital expenditure", "capex",
-"return on equity", "roe",
-"return on assets", "roa",
-"return on invested capital", "roic"
+    # 资本结构
+    "debt", "leverage", "net debt",
+    "interest coverage", "debt maturity",
+    "capital expenditure", "capex",
+    "return on equity", "roe",
+    "return on assets", "roa",
+    "return on invested capital", "roic",
 ]
 
 
@@ -368,7 +373,7 @@ def main():
                 f"{s.score:.6f}", s.error
             ])
 
-    # 输出 top300.txt（只要 handle）
+    # 输出 top300.txt
     # 只取 “eligible 且无错误” 的 top300
     top_good = [s for s in ranked if s.eligible and not s.error and s.score > -1e8]
     top300 = top_good[:300]
