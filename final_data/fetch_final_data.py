@@ -531,7 +531,7 @@ def main():
         help="Remove tweet.extendedEntities/extended_entities from output JSONL (media links still extracted).",
     )
 
-    # Sampling cap per month
+    # Sampling  per month
     ap.add_argument("--max_pages_per_slice", type=int, default=30, help="Sampling cap pages per month slice (~20 tweets/page)")
 
     # If unlocked, allow deeper per month
