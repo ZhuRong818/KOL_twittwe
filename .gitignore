@@ -48,3 +48,6 @@ failed_users.txt
 fetch_kol_tweets_5y_search.py
 split_kol_list.py
 test.txt
+.DS_Store
+final_data/*.log
+2000KOL_part*.txt
