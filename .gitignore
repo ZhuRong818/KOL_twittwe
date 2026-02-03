@@ -51,3 +51,7 @@ test.txt
 .DS_Store
 final_data/*.log
 2000KOL_part*.txt
+2000KOL.txt
+entertainment_kol_top250/top300_ent.txt
+fetch_kol_tweets.py
+sports_kol_top300/sports_top300.txt
