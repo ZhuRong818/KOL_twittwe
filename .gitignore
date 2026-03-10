@@ -55,3 +55,7 @@ final_data/*.log
 entertainment_kol_top250/top300_ent.txt
 fetch_kol_tweets.py
 sports_kol_top300/sports_top300.txt
+
+# large jsonl
+/data cleaning/*.jsonl
+/data cleaning/*.jsonl.bak
