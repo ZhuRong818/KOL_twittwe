@@ -326,12 +326,15 @@ def fetch_slice_recursive(
     strip_extended_entities: bool,
     max_pages_per_slice: int,
     slice_mode: str,
+    max_tweets_per_user: Optional[int],
     seen_ids: set[str],
     all_tweets: List[Dict[str, Any]],
     debug: bool,
 ) -> None:
     slices = list(reversed(build_slices(start_utc, end_utc, slice_mode)))
     for since_dt, until_dt in slices:
+        if max_tweets_per_user is not None and len(all_tweets) >= max_tweets_per_user:
+            return
         since_q = fmt_utc_for_query(since_dt)
         until_q = fmt_utc_for_query(until_dt)
         query = f"from:{username} since:{since_q} until:{until_q}"
@@ -342,6 +345,8 @@ def fetch_slice_recursive(
         empty_streak = 0
 
         for page in range(1, max_pages_per_slice + 1):
+            if max_tweets_per_user is not None and len(all_tweets) >= max_tweets_per_user:
+                return
             resp = search_fetch_page(api_key, query, cursor, limiter, timeout)
             tweets = safe_get_tweets(resp)
 
@@ -381,6 +386,7 @@ def fetch_slice_recursive(
                             strip_extended_entities,
                             max_pages_per_slice,
                             finer,
+                            max_tweets_per_user,
                             seen_ids,
                             all_tweets,
                             debug,
@@ -411,6 +417,8 @@ def fetch_slice_recursive(
                     cleaned = strip_extended_entities_fields(t) if strip_extended_entities else t
                     all_tweets.append(cleaned)
                     kept_count += 1
+                    if max_tweets_per_user is not None and len(all_tweets) >= max_tweets_per_user:
+                        break
 
                 if debug:
                     print(
@@ -439,6 +447,7 @@ def fetch_slice_recursive(
                             strip_extended_entities,
                             max_pages_per_slice,
                             finer,
+                            max_tweets_per_user,
                             seen_ids,
                             all_tweets,
                             debug,
@@ -470,6 +479,7 @@ def fetch_user_complete(
     strip_extended_entities: bool,
     max_pages_per_slice: int,
     slice_mode: str,
+    max_tweets_per_user: Optional[int],
     debug: bool,
 ) -> List[Dict[str, Any]]:
     seen_ids: set[str] = set()
@@ -487,6 +497,7 @@ def fetch_user_complete(
         strip_extended_entities,
         max_pages_per_slice,
         slice_mode,
+        max_tweets_per_user,
         seen_ids,
         all_tweets,
         debug,
@@ -523,6 +534,12 @@ def main() -> None:
         default=20,
         help="Max pages fetched for each time slice.",
     )
+    ap.add_argument(
+        "--max_tweets_per_user",
+        type=int,
+        default=0,
+        help="Stop after this many kept tweets per username. 0 means no cap.",
+    )
     ap.add_argument("--debug", action="store_true")
     args = ap.parse_args()
 
@@ -533,6 +550,7 @@ def main() -> None:
     usernames = read_usernames(args.usernames)
     if not usernames:
         raise SystemExit("No usernames found in file.")
+    max_tweets_per_user = args.max_tweets_per_user if args.max_tweets_per_user > 0 else None
 
     start_utc = dt.datetime.strptime(args.start, "%Y-%m-%d").replace(tzinfo=dt.timezone.utc)
     end_utc = (
@@ -564,6 +582,7 @@ def main() -> None:
                 args.strip_extended_entities,
                 args.max_pages_per_slice,
                 args.slice,
+                max_tweets_per_user,
                 args.debug,
             ): u
             for u in usernames
